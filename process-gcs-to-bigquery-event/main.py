@@ -26,8 +26,8 @@ storage_client = storage.Client()
 bigquery_client = bigquery.Client()
 
 # Define your BigQuery dataset and table
-BIGQUERY_DATASET = "BQWorkshop"      
-BIGQUERY_TABLE = "customers"          
+BIGQUERY_DATASET = "CHANGE_TO_YOUR_DATASET_NAME" 
+BIGQUERY_TABLE = "CHANGE_TO_YOUR_TABLE_NAME"      
 
 @functions_framework.cloud_event
 def process_gcs_to_bigquery(cloud_event):
