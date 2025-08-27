@@ -26,9 +26,9 @@ storage_client = storage.Client()
 bigquery_client = bigquery.Client()
 
 # Define your BigQuery dataset and table
-BIGQUERY_DATASET = "BQWorkshop"  # Zmień na nazwę Twojego zbioru danych
-BIGQUERY_TABLE = "customers"      # Zmień na nazwę Twojej tabeli
-BUCKET_NAME="raw-mczopinski-477-20240625075327-c56qqpusxw"
+BIGQUERY_DATASET = "CHANGE_TO_YOUR_DATASET_NAME" 
+BIGQUERY_TABLE = "CHANGE_TO_YOUR_TABLE_NAME"      
+BUCKET_NAME="CHANGE_TO_YOUR_BACKET_NAME" 
 GCS_PATH="cloud-function/"
 
 @functions_framework.http
